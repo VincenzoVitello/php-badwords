@@ -10,7 +10,7 @@
     da desiderarsi devotamente. Morire, dormire.";
     $toBeLength = strlen($toBeOrNot);
     $toCensorWord = $_GET["censor"];
-    $censoredWord = "***";
+    $censoredWord = "***"; 
 
     $toBeOrNot = str_replace($toCensorWord, $censoredWord, strtolower($toBeOrNot));
 
